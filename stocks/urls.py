@@ -21,5 +21,4 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^analysis/',
         include('analysis.api.urls', namespace='analysis')),
-    # url(r'^admin/', admin.site.urls),
 ]
