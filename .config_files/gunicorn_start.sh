@@ -1,10 +1,10 @@
 #!/bin/bash
  
-NAME="GeEMS"                                  # Name of the application
+NAME="RDT"                                  # Name of the application
 DJANGODIR=/home/RDT/RTD-Django             # Django project directory
 NUM_WORKERS=8                                     # how many worker processes should Gunicorn spawn
-DJANGO_SETTINGS_MODULE=geems_project.settings             # which settings file should Django use
-DJANGO_WSGI_MODULE=geems_project.wsgi                     # WSGI module name
+DJANGO_SETTINGS_MODULE=stocks.settings             # which settings file should Django use
+DJANGO_WSGI_MODULE=stocks.wsgi                     # WSGI module name
 USER=webuser
 GROUP=webapps
 TIMEOUT=120
